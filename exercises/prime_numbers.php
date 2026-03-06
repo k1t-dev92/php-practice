@@ -1,5 +1,5 @@
 <?php
-	define("MAX_COUNT", 100);
+	const MAX_COUNT = 100;
 
     for ($i = 2; $i < MAX_COUNT; $i++) {
         $isPrime = true;
