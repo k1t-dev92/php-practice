@@ -1,7 +1,7 @@
 <?php
-    define("FIZZ", 3);
-    define("BUZZ", 5);
-    define("MAX_COUNT", 100);
+    const FIZZ = 3;
+    const BUZZ = 5;
+    const MAX_COUNT = 100;
 
     for ($i = 1; $i <= MAX_COUNT; $i++) {
         if ($i % (FIZZ * BUZZ) == 0) {
