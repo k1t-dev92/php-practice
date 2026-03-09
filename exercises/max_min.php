@@ -2,6 +2,7 @@
     const ARRAY_SIZE = 5;
 
     $numbers = [];
+    echo 'data: ';
     for ($i = 0; $i < ARRAY_SIZE; $i++) {
         $numbers[] = rand(1, 100);
         echo $numbers[$i] . ' ';
