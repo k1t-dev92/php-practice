@@ -12,7 +12,7 @@
     $temp;
     echo 'Asc: ';
     for ($i = 0; $i < ARRAY_SIZE; $i++) {
-        for ($j = 0; $j < ARRAY_SIZE; $j++) {
+        for ($j = $i + 1; $j < ARRAY_SIZE; $j++) {
             if ($numbers[$i] > $numbers[$j]) {
                 $temp = $numbers[$i];
                 $numbers[$i] = $numbers[$j];
@@ -28,7 +28,7 @@
 
     echo 'Desc: ';
     for ($i = 0; $i < ARRAY_SIZE; $i++) {
-        for ($j = 0; $j < ARRAY_SIZE; $j++) {
+        for ($j = $i + 1; $j < ARRAY_SIZE; $j++) {
             if ($numbers[$i] < $numbers[$j]) {                                                                 
                 $temp = $numbers[$i];
                 $numbers[$i] = $numbers[$j];                                                                   
