@@ -8,8 +8,7 @@
         echo $numbers[$i] . ' ';
     }
     echo '<br><br>';
-
-    $temp;
+    
     echo 'Asc: ';
     for ($i = 0; $i < ARRAY_SIZE; $i++) {
         for ($j = $i + 1; $j < ARRAY_SIZE; $j++) {

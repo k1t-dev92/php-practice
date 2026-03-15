@@ -9,7 +9,6 @@
     }
     echo '<br><br>';
 
-    $temp;
     echo 'Asc: ';
     for ($i = 0; $i < ARRAY_SIZE; $i++) {
         for ($j = 0; $j < ARRAY_SIZE - $i - 1; $j++) {
