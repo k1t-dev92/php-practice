@@ -2,10 +2,6 @@
 	const MAX_NUMBER = 100;
 
 	$isPrime = [];
-	for ($i = 0; $i <= MAX_NUMBER; $i++) {
-		$isPrime[$i] = false;
-	}
-
 	for ($i = 2; $i <= MAX_NUMBER; $i++) {
 		$isPrime[$i] = true;
 	}
