@@ -20,9 +20,9 @@
         }
     }
 
-    for ($i = 0; $i < ARRAY_SIZE; $i++) {                                                                      
-        echo $numbers[$i] . ' ';                                                                               
-    }           
+    for ($i = 0; $i < ARRAY_SIZE; $i++) {
+        echo $numbers[$i] . ' ';
+    }
     echo '<br>';
 
     echo 'Desc: ';
@@ -34,9 +34,9 @@
                 $numbers[$j + 1] = $temp;
             }
         }
-    }                                                                                                          
-                
-    for ($i = 0; $i < ARRAY_SIZE; $i++) {                                                                      
+    }
+
+    for ($i = 0; $i < ARRAY_SIZE; $i++) {
         echo $numbers[$i] . ' ';
-    }                                                                                                          
+    }
     echo '<br>';
